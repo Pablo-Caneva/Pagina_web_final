@@ -1,0 +1,27 @@
+<ASOCIADOS>
+    <SOCIO>
+        <NOMBRE>Kevin</NOMBRE>
+        <APELLIDO>Forger</APELLIDO>
+        <CIUDAD>Atlanta</CIUDAD>
+    </SOCIO>
+    <SOCIO>
+        <NOMBRE>Maia</NOMBRE>
+        <APELLIDO>Tizano</APELLIDO>
+        <CIUDAD>Madrid</CIUDAD>
+    </SOCIO>
+    <SOCIO>
+        <NOMBRE>Piero</NOMBRE>
+        <APELLIDO>Milano</APELLIDO>
+        <CIUDAD>Scilia</CIUDAD>
+    </SOCIO>
+    <SOCIO>
+        <NOMBRE>Leon</NOMBRE>
+        <APELLIDO>Windsor</APELLIDO>
+        <CIUDAD>Rennes</CIUDAD>
+    </SOCIO>
+    <SOCIO>
+        <NOMBRE>Veronica</NOMBRE>
+        <APELLIDO>Alvarez</APELLIDO>
+        <CIUDAD>Rosario</CIUDAD>
+    </SOCIO>
+</ASOCIADOS>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="css/barra.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/animacion_barra.js"></script>
+<script src="js/news_toggle.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amantes del Golf de Disco</title>
+</head>
+<body>
+<div class="container-fluid">
+	<img src="img/news/noticias.jpg" class="img-fluid">
+</div>
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+	<div class="container-fluid">
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		  <ul class="navbar-nav">
+			  <li class="nav-item disabled-hoover">
+				  <i><img id="logo" src="img/home/logo.png" style="width:83px;" class="img-fluid"></i>
+				  <!-- color corazón:#ea7053. Color pasto: #71be5b -->
+			  </li>
+			  <li class="nav-item">
+				  <a class="nav-link" href="home.html"><i id="nb1" style="display: none;" title="Volvé al inicio" class="bi bi-house-fill nav-icons"></i>
+					  <h1 class="d-inline d-md-none bar_icons">&nbspHOME</h1></a>
+			  </li>
+			  <li class="nav-item">
+				  <a class="nav-link" href="news.html"><i id="nb2" style="display: none;" title="Entereate de las noticias" class="bi bi-newspaper nav-icons"></i>
+					  <h1 class="d-inline d-md-none bar_icons">&nbspNOTICIAS</h1></a>
+			  </li>
+			  <li class="nav-item">
+			  <a class="nav-link" href="pics.html"><i id="nb3" style="display: none;" title="Mirá las mejores fotos" class="bi bi-images nav-icons"></i>
+				  <h1 class="d-inline d-md-none bar_icons">&nbspFOTOS</h1></a>
+				  </li>
+			  <li class="nav-item">
+				  <a class="nav-link" href="join.html"><i id="nb4" style="display: none;" title="Unite a los DGL" class="bi bi-person-plus-fill nav-icons"></i>
+					  <h1 class="d-inline d-md-none bar_icons">&nbspUNIRSE</h1></a>
+			  </li>
+			  <li class="nav-item">
+				  <a class="nav-link" href="reach.html"><i id="nb5" style="display: none;" title="Envianos tu amor virtual" class="bi bi-envelope-paper-heart-fill nav-icons"></i>
+					  <h1 class="d-inline d-md-none bar_icons">&nbspCONTACTO</h1></a>
+			  </li>
+		  </ul>
+	  </div>
+	</div>
+</nav>
+
+<div class="container my-5">
+	<div class="row">
+		<div class="col-md-7">
+			<div class="container mb-3 border rounded alto_custom fondo_news">
+			</div>
+			<div class="card text-white bg-dark mb-3">
+				<div class="card-body">
+					<h5 class="card-title">Kevin Fitzgrand campeón del torneo de medio año</h5>
+					<h6 class="card-subtitle mb-2 text-muted">La joven promesa se impuso por dos puntos bajo par</h6>
+					<div id="textnews1" style="display: none;">
+						<div class="d-block d-lg-none m-2"><img class="img-fluid" src="img/news/noticias_1.jpg"></div>
+						<div class="d-none d-lg-inline m-2 fotos_news"><img class="img-fluid" src="img/news/noticias_1.jpg"></div>
+						<p class="card-text">Fue un domingo soleado en la cancha noreste de la metrópolis, un clima excelente para un torneo de Golf de Disco. Desde temprano empezaron a llegar los fanáticos y curiosos a Eldon Hill, con ganas de ver una <b>final</b> peleada. De entre los varios competidores había dos favoritos: por un lado el joven de 24 años, <b><i>Kevin Fitzgrand</i></b>; y por otro lado, <b><i>Nanci Hiul</i></b>, la tricampeona de 39 años. Cabe destacar la participación de <b><i>Paul Radith</i></b>, quien sorprendió a todos al quedar en segundo lugar.<br>La competencia fue bastante desbalanceada, con Nanci a la cabeza durante los primeros 10 hoyos y Kevin pisándole los talones. Pero Kevin logró un importate <i>break point</i> en el hoyo 11, <u>logrando aventajar a Nanci por dos puntos y levantando la temperatura del torneo</u>. Por otra parte, a partir desde el hoyo 10, Paul empezó a lograr todos puntajes bajo par y se empezó a acercar peligrosamente a la pelea de la punta. Aún así, no lograría su segundo lugar definitivo hasta el hoyo 18. Y esto fue más debido a errores por parte de Nanci que otra cosa<br>Fue un torneo emocionante, cargado de sorpresas y desde nuestra web queremos felicitar a todos los participantes y concurrente; pero especialmente a Kevin en su primer triunfo. ¡Esperamos que lleguen más en el futuro! Nos vemos a todos en las eliminatorias de primavera.</p>
+					</div>
+					<button id="news1" type="button">
+						Leer Más...
+					</button>
+				</div>
+			</div>
+			<div class="card text-white bg-dark mb-3">
+				<div class="card-body">
+					<h5 class="card-title">Lesiones en el Golf de Disco, ¿qué hacer?</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Los cuidados son una rutina importante del deporte</h6>
+					<div id="textnews2" style="display: none;">
+						<div class="d-block d-lg-none m-2"><img class="img-fluid" src="img/news/noticias_2.jpg"></div>
+						<div class="d-none d-lg-inline m-2 fotos_news"><img class="img-fluid" src="img/news/noticias_2.jpg"></div>
+						<p class="card-text">Jugar un deporte no es una actividad menor. Es importante cuidar nuestro cuerpo, ya que cualquier movimiento mal realizado puede derivar en una lesión grave, que nos puede impedir seguir disfrutando del Golf de Disco con la misma pasión y ganas. Por eso, la Universidad de <a href="https://www.youtube.com/watch?v=JvUMV1N7eGM" target="_blank">Massachusetts</a> publicó la semana pasada sobre las <b>lesiones más comunes en el Golf de Disco y cómo prevenirlas</b>, información que podrán leer a continuación:<ul><li><u>Lesiones de hombro.</u><br>Todos los jugadores de Golf de Disco hemos sufrido esta lección en algún momento de nuestra carrera. Y no es algo menor, ya que un buen <i>openning</i> puede ser la diferencia entre un juego bajo par o un par de <i>boogies</i> extra en nuestro puntaje. Por eso es importante siempre cuidar nuestros movimientos. Es fundamental entrar en calor antes de empezar, aún cuando es un juego amistoso. Además, hay que empezar de a poco, sobre todo cuando hace tiempo que estamos alejados de las canchas.<br><br></li><li><u>Golpes en la cabeza.</u><br>Cancha abierta. Mucha gente. Discos volando. Viento. No es sorpresa que esta sea una lesión común en este deporte. Un buen consejo es siempre gritar el clásico <i>"arriba"</i> cuando hacemos tiradas largas, sobre todo en el <i>openning</i>. También estar atentos a nuestros alrededores, para no ser nosotros quien recibamos el golpe. Un buen espíritu deportivo debería evitar este tipo de lesiones.<br><br></li><li><u>Caidas graves.</u><br>A estamos tan metidos en el momento, que hacemos movimientos bruscos, inesperados y peligrosos. Saltar un poco más para extender nuestro alcance. O estirarnos de manera innecesaria para poder llegar hasta el <i>green</i> a tiempo para un <i>birdie</i>. Pero estos movimientos pueden provocar caídas, tropezones y lesiones no deseadas, que nos impedirán jugar en el futuro. Tal vez un par de <i>boogies</i> en nuestro puntaje justifiquen un mejor estado de salud.<br><br></li><li><u>Mordidas de animales peligrosos.</u><br>Todos sabemos que las canchas son grandes y suelen estar alejadas de lugares transitados, por lo que la fauna es más variada. Esto hace a la belleza del lugar, pero también conlleva un <b>riesgo inherente</b>. Por eso repetimos el consejo una y otra vez hasta el cansacio: no hay que acercase a los animales que hay en los campos. Sin importar que tan calmos se vean; no son animales domesticados.<br><br></li></ul>Cuidarnos y cuidar a los demás a la hora de jugar no es algo menor. Debe ser parte de nuestra rutina como buenos deportistas. Recordemos, <b>la salud es algo delicado</b> y de la misma depende que podamos seguir practicando nuestro amado deporte por muchos años.</p>
+					</div>
+					<button id="news2" type="button">
+						Leer Más...
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<div class="container mb-3 border rounded alto_custom fondo_ed">
+			</div>
+			<div class="card text-white bg-dark mb-3">
+				<div class="card-body">
+					<h5 class="card-title">Profesionalizando el deporte</h5>
+					<h6 class="card-subtitle mb-2 text-muted">por Jhon Switcherson</h6>
+					<div id="texted1" style="display: none;">
+						<div class="d-block d-lg-none m-2"><img class="img-fluid" src="img/news/editorial_1.jpg"></div>
+						<div class="d-none d-lg-inline m-2 fotos_ed"><img class="img-fluid" src="img/news/editorial_1.jpg"></div>
+						<p class="card-text">Mucho se ha dicho sobre nuestro amado deporte: el Golf de Disco. Varias de lo que se comentan, no son, precisamente, con tono amable. Pero queda en nosotros, los DGL, profesionalizar el deporte y hacerlo valorar y respetar. Empecemos por lo básica: el Golf de Disco no es un juego, es un deporte. Y para muchos, una pasión. Pero, ¿qué lo hace un deporte? Las siguientes razones:<ol><li>Se juega en una chancha de Golf. No podemos jugarlo en la calle o en cualquier lado, como un simple entretenimiento.</li><li>Se utilizan discos deportivos. Son discos altamente especializados para el deporte, no jueguetes.</li><li>Tiene un alto nivel de competitividad. Ser profesional requiere de esfuerzo y práctica. Como cualquier otro deporte.</li></ol>Así que, es hora de empezar a actuar en pos de defender este deporte y hacerlo valer. Podemos empezar con cosas sencillas, como llamar a los discos por su nombre (<b>¡No son <i>fribees</i>!</b> Eso es una marca de juguetes), anotar los puntajes en tablas homologadas y mantener el buen espíritu deportivo limpiando las canchas de Golf que tan amablemente nos dejan usar. Recuerden: si no lo hacemos nosotros, nadie lo hará.<br>Nos vemos. Como siempre, les deseo que los vientos siempre estén a su favor y los árboles no los estoben. ¡Hasta la próxima!</p>
+					</div>
+					<button id="ed1" type="button">
+						Leer Más...
+					</button>
+				</div>
+			</div>
+			<div class="card text-white bg-dark mb-3">
+				<div class="card-body">
+					<h5 class="card-title">Un evento memorable</h5>
+					<h6 class="card-subtitle mb-2 text-muted">por Crystal Walker</h6>
+					<div id="texted2" style="display: none;">
+						<div class="d-block d-lg-none m-2"><img class="img-fluid" src="img/news/editorial_2.jpg"></div>
+						<div class="d-none d-lg-inline m-2 fotos_ed"><img class="img-fluid" src="img/news/editorial_2.jpg"></div>
+						<p class="card-text">¡Hola a todos! &#128075;<br>El domingo pasado, hemos celebrado el aniversario de la fundación de nuestra institución de DGL con un éxito rotundo. ¡Hemos sido casi <b>20 personas</b> en total!&#128513; No puedo decirles lo agradecida que estoy por haber sido parte de ese momento tan energético y maravilloso.&#10024; Obviamente, varios socios no se han podido acerca al <i>country</i> para compartir este momento,&#128553; pero han estado presentes en nuestros corazones.&#129505; Esperamos contar con su presencia para el próximo evento.&#9989;<br>Luego del almuerzo y de la asamblea para hacer balance anual, se propuso hacer un mini torneo amistoso, para divertirnos.&#129359;&#9971; ¡Estuvo excelente! Todos estamos muy feliz por Katie, que salió campeona del pequeño encuentro amistoso.&#128079; Fue un buen pre-calentamiento de frente a los anuales de primavera,&#127802; que empiezan el mes que viene. ¡A afinar las habilidades y practicar!&#127947;<br>Antes de terminar esta nota, les quiero recordar a nuestros amados lectores que el resumen de la asamblea anual les llegará a su email.&#9993; Léanla con detalle para ver si faltó algo o, sobre todos quienes no pudieron ir, quieren comentar o preguntar sobre algún tema.<br>¡Mucha suerte!&#127808;</p>
+					</div>
+					<button id="ed2" type="button">
+						Leer Más...
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="d-flex justify-content-center">
+		<ul class="pagination">
+			<li class="page-item active"><a class="page-link border-dark bg-dark" href="#">1</a></li>
+			<li class="page-item"><a class="page-link border-dark text-dark" href="#">2</a></li>
+			<li class="page-item"><a class="page-link border-dark text-dark" href="#">3</a></li>
+			<li class="page-item"><a class="page-link border-dark text-dark" href="#">Next</a></li>
+		</ul>
+	</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand bg-dark navbar-dark">
+	<div class="container-fluid justify-content-end">
+		<ul class="navbar-nav news-list">
+			<li class="nav-item">
+				<a class="nav-link" href="#"><i title="Seguinos en Facebook" class="bi bi-facebook social-icons"></i></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><i title="Seguinos en Instagram" class="bi bi-instagram social-icons"></i></a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="#"><i title="Seguinos en Twitter" class="bi bi-twitter social-icons"></i></a>
+				</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><i title="Seguí a nuestro canal de YouTube" class="bi bi-youtube social-icons"></i></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://creativecommons.org/licenses/by/2.0/" target="_blank"><i title="Licencia Creative Commons" class="bi bi-badge-cc-fill social-icons"></i></a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
