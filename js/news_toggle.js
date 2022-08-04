@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#news1").click(function(){
+        $("#textnews1").slideToggle(3000)
+    });
+});
+$(document).ready(function(){
+    $("#news2").click(function(){
+        $("#textnews2").slideToggle(3000)
+    });
+});
+$(document).ready(function(){
+    $("#ed1").click(function(){
+        $("#texted1").slideToggle(3000)
+    });
+});
+$(document).ready(function(){
+    $("#ed2").click(function(){
+        $("#texted2").slideToggle(3000)
+    });
+});
